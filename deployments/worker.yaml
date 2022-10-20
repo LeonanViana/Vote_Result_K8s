@@ -18,5 +18,5 @@ spec:
         app: worker
     spec:
       containers:
-        - image: dockersample/examplevotingapp_worker # Image App
+        - image: kodekloud/examplevotingapp_worker:v1 # Image App
           name: worker
